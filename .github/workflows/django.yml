@@ -28,3 +28,6 @@ jobs:
     - name: Run Tests
       run: |
         python manage.py test
+    - name: Run Docker Compose file
+      run: |
+        docker build -t testbuild:latest -f Dockerfile .
