@@ -31,3 +31,6 @@ jobs:
     - name: Run Docker Compose file
       run: |
         docker build -t testbuild:latest -f Dockerfile .
+    - name: Docker Push to docker hub
+      run: | 
+        docker push rajrupdasid/delta_rest_test:latest
