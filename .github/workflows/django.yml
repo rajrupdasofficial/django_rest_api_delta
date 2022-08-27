@@ -27,7 +27,7 @@ jobs:
         pip install -r requirements.txt
     - name: Run Tests
       run: |
-        python manage.py test
+        python manage.py test snippets.tests
     - name: Login to docker hub
       uses: docker/login-action@v1
       with:
