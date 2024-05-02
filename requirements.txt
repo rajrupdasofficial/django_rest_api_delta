@@ -6,7 +6,7 @@ defusedxml==0.7.1
 Django==4.1.13
 djangorestframework==3.13.1
 httpie==3.2.1
-idna==3.3
+idna==3.7
 multidict==6.0.2
 Pygments==2.15.0
 PySocks==1.7.1
